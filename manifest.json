@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Undoodle - Original Google Logo",
+  "version": "1.0.0",
+  "description": "Replaces the Google Doodle with the original Google logo on google.com",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/",
+        "https://www.google.com/?*",
+        "https://www.google.com/webhp*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
