@@ -7,6 +7,6 @@ Chrome extension that replaces the Google Doodle with the original Google logo o
 1. Open `chrome://extensions/`, enable **Developer mode**, click **Load unpacked**.
 2. Select this folder.
 
-## Development
+## License
+[MIT](LICENSE) © 2026 [Nilambar Sharma](https://www.nilambar.net)
 
-Reload the extension at `chrome://extensions/` after changing code.
